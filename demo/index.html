@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>rain 插件演示</title>
+    <link rel="stylesheet" type="text/css" href="../css/jquery.rain.css">
+</head>
+<body>
+<div class="main">
+    <div id="J_PluginWrap" style="height: 1000px;text-align: center;">
+        <input type="button" value="刷新" onclick="javascript:location.reload()" style="position: relative;z-index: 10;font-size: 50px;">
+        <!-- <div class="rain-wrap" style="float: left; width: 500px; height: 500px;background-color: #ddd;"></div>
+        <div class="rain-wrap" style="float: left; width: 500px; height: 400px;background-color: #aaa;"></div> -->
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.rain.js"></script>
+<script>
+$(function() {
+    var anims = $('.rain-wrap');
+    // anims.eq(0).rain({
+    //     useIcon: 'emoji',
+    //     duration: [0.5, 2]
+    // });
+    // anims.eq(1).rain({
+    //     useIcon: 'cake',
+    //     rainTime: 5
+    // });
+    $('body').rain({
+        useIcon: 'three'
+    });
+});
+</script>
+</body>
+</html>
