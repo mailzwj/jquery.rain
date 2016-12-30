@@ -36,7 +36,7 @@ $(function() {
     };
     // 动画组件默认配置
     var _DEFAULT = {
-        // 使用哪个图标
+        // 使用哪个/组图标，可选值 star/cake/emoji/two/three
         useIcon: 'star',
         // 元素可选动画：auto/none/rotate/rotateX/rotateY
         animate: 'none',
