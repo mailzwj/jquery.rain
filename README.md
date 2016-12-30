@@ -11,7 +11,7 @@
 
 ```xml
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="../js/jquery.rain.js"></script>
+<script src="../js/jquery.rain.min.js"></script>
 ```
 
 ### 使用示例
@@ -21,9 +21,20 @@
 ```js
 $(function() {
     $('body').rain({
-        useIcon: 'three'
+        // 使用哪个/组图标
+        useIcon: 'three',
+        // 元素可选动画：auto/none/rotate/rotateX/rotateY（后续支持）
+        animate: 'none',
+        // 下雨动画持续时间，单位秒
+        rainTime: 10,
+        // 是否自动停止下雨动画
+        autoStop: true,
+        // 动画执行时长，区间：[最小值, 最大值]，单位秒
+        duration: [1, 4],
+        // 图标显示大小，区间：[最小值, 最大值]
+        scale: [0.8, 1.2]
     });
 });
 ```
 
-详细参数设置，请参看源码。
+更多详细信息，请参看源码。

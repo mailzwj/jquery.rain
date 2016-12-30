@@ -199,7 +199,6 @@ $(function() {
         var config = $.extend({}, _DEFAULT, cfg || {});
         if (!this.length) {
             throw('Elements not found.');
-            return this;
         }
         return this.each(function(idx, ele) {
             var $this = $(ele);
