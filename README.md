@@ -23,7 +23,7 @@ $(function() {
     $('body').rain({
         // 使用哪个/组图标，可选值 star/cake/emoji/two/three
         useIcon: 'three',
-        // 元素可选动画：auto/none/rotate/rotateX/rotateY（后续支持）
+        // 元素可选动画：auto/none/rotate/rotateX/rotateY
         animate: 'none',
         // 下雨动画持续时间，单位秒
         rainTime: 10,
