@@ -131,7 +131,7 @@ $(function() {
         } else {
             animClass = ANIMS[anim] || '';
         }
-        // console.log(icon, area, animClass);
+        console.log(icon, area, animClass);
         // 每隔200ms产生2-4个小图标（水平位置随机），并绑定动画
         if (timer) {
             clearInterval(timer);
@@ -159,7 +159,7 @@ $(function() {
                 } else {
                     imgUrl = icon;
                 }
-                animer.html('<img src="' + imgUrl + '" style="max-width: 100%;">')
+                animer.html('<img src="' + imgUrl + '">')
                     .css({
                         position: 'absolute',
                         top: '-' + iconSize + 'px',
