@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>rain 插件演示</title>
-    <link rel="stylesheet" type="text/css" href="../css/jquery.rain.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.rain.min.css">
 </head>
 <body>
 <div class="main">
@@ -31,11 +31,11 @@ $(function() {
         // 使用哪个/组图标，可选值 star/cake/emoji/two/three
         useIcon: 'three',
         // 元素可选动画：auto/none/rotate/rotateX/rotateY（后续支持）
-        animate: 'none',
+        animate: 'auto',
         // 下雨动画持续时间，单位秒
         rainTime: 10,
         // 是否自动停止下雨动画
-        autoStop: true,
+        autoStop: false,
         // 动画执行时长，区间：[最小值, 最大值]，单位秒
         duration: [1, 4],
         // 图标显示大小，区间：[最小值, 最大值]

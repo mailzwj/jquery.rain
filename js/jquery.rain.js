@@ -125,6 +125,7 @@ $(function() {
         var cont = this.get('container');
         var scale = this.get('scale');
         var dur = this.get('duration');
+        var interval = dur[0] * 0.3;
         if (anim === 'auto') {
             animKeys = Object.keys(ANIMS);
             animClass = ANIMS[animKeys[Math.floor(Math.random() * animKeys.length)]];
@@ -159,7 +160,7 @@ $(function() {
                 } else {
                     imgUrl = icon;
                 }
-                animer.html('<img src="' + imgUrl + '" style="max-width: 100%;">')
+                animer.html('<img src="' + imgUrl + '">')
                     .css({
                         position: 'absolute',
                         top: '-' + iconSize + 'px',
@@ -178,7 +179,7 @@ $(function() {
                     .appendTo(cont);
             }
             that.set('count', that.get('count') + count);
-        }, 200);
+        }, interval * 1000);
         this.set('timer', timer);
     };
 
