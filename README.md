@@ -14,6 +14,12 @@
 <script src="../js/jquery.rain.min.js"></script>
 ```
 
+在此之前，我们还需要引入样式依赖文件`jquery.rain.min.css`，主要包含掉落元素基础样式及自身CSS3动画定义。
+
+```css
+<link rel="stylesheet" href="../css/jquery.rain.min.css">
+```
+
 ### 使用示例
 
 插件会在指定的元素范围内运行，如果找不到指定的元素，插件将以body元素作为容器。
@@ -37,4 +43,4 @@ $(function() {
 });
 ```
 
-更多详细信息，请参看源码。
+更多详细信息，请参看[源码](https://github.com/mailzwj/jquery.rain)。
