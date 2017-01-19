@@ -20,13 +20,15 @@ $(function() {
 
     // 系统内置的图标素材
     var ICONS = {
-        'star': 'http://img13.360buyimg.com/cms/jfs/t3286/16/5426262213/2385/1930356e/5865c84cN32ebbcc8.png',
-        'cake': 'http://img14.360buyimg.com/cms/jfs/t3943/283/1021426942/3625/f41ae0bf/5865c84cN3494e5b9.png',
-        'emoji': 'http://img13.360buyimg.com/cms/jfs/t4051/304/1014272481/3653/a379e0a2/5865c84cN2e6defde.png',
+        'move': 'http://img14.360buyimg.com/cms/jfs/t3193/40/5780565411/2637/b0cdc80e/58807e52N32a9d1dc.png',
+        'balloon': 'http://img11.360buyimg.com/cms/jfs/t3067/204/5800954115/1462/6e2b8076/58807e52N70ee1374.png',
+        'red': 'http://img13.360buyimg.com/cms/jfs/t3184/118/5804981052/1961/2a877227/58807e52N524b321c.png',
+        'yellow': 'http://img10.360buyimg.com/cms/jfs/t3109/97/5821898166/1979/9fb16a9c/58807e52N4f10921e.png',
+        'purple': 'http://img12.360buyimg.com/cms/jfs/t3934/88/1600286157/1947/96fce95b/58807e52Nb00dc5a7.png',
         // 数组值必须是ICONS中已有的图片链接对应的KEY
         // 数组中不能直接填写链接地址
-        'two': ['star', 'cake'],
-        'three': ['star', 'emoji', 'cake']
+        'balls': ['red', 'yellow', 'purple'],
+        'two': ['balloon', 'yellow']
     };
     // 内置元素动画素材
     var ANIMS = {
@@ -36,8 +38,8 @@ $(function() {
     };
     // 动画组件默认配置
     var _DEFAULT = {
-        // 使用哪个/组图标，可选值 star/cake/emoji/two/three
-        useIcon: 'star',
+        // 使用哪个/组图标，可选值 move/balloon/red/yellow/balls/two
+        useIcon: 'move',
         // 元素可选动画：auto/none/rotate/rotateX/rotateY
         animate: 'none',
         // 下雨动画持续时间，单位秒

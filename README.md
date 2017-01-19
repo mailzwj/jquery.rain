@@ -27,8 +27,8 @@
 ```js
 $(function() {
     $('body').rain({
-        // 使用哪个/组图标，可选值 star/cake/emoji/two/three
-        useIcon: 'three',
+        // 使用哪个/组图标，可选值 move/balloon/red/yellow/balls/two
+        useIcon: 'balls',
         // 元素可选动画：auto/none/rotate/rotateX/rotateY
         animate: 'none',
         // 下雨动画持续时间，单位秒
