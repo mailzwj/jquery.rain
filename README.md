@@ -10,7 +10,7 @@
 此外，还需引入插件自身的实现脚本。
 
 ```xml
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://lib.baomitu.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="../js/jquery.rain.min.js"></script>
 ```
 
