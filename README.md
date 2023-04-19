@@ -2,7 +2,7 @@
 
 仿微信表情雨效果插件。在微信中发送“么么哒”、“想你了”、“恭喜发财”、“生日快乐”等关键字，屏幕上会下一小段时间的表情雨。本插件实现了下表情雨的效果，并且还进行了扩展，支持多表情的表情雨。实际效果请看：
 
-[在线演示](http://newjs.vip/jquery.rain/demo/index.html)
+[在线演示](http://mailzwj.github.io/jquery.rain/demo/index.html)
 
 ### 安装方法
 
